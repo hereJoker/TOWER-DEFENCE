@@ -1,37 +1,33 @@
+### About the game:
+This is a tower defense game with a simple, accessible design for players but a highly advanced underlying system. The game features a professional, modular architecture that allows for easy expansion and development of new towers, enemies, and mechanics.
+
 Playable WebGL build:
 https://mooner-dev.itch.io/tower-defence
 
 Project scripts:
 Assets/_Project/Scripts
 
-Roadmap
+Project plan
 
-Project and Assets
-- Find/Integrate assets for TD and creatures
-- Find/Integrate base UI sprites
-- Create a scene/map
-- Create 3 prefabs for tower
-- Create 3 prefabs for creature
+## Project & Assets
+- Integrate tower and enemy assets
+- Add basic UI sprites
+- Create scene/map and prefabs
 
-Creature/Wave Behaviour
-- Add Bezier path package
-- Movement of creature
-- Spawn/Wave system
-- Win/Lose system
+## Creature & Waves
+- Enemy movement along Bezier paths
+- Spawn and wave system
+- Win/Lose conditions
 
-Tower Behaviour
-- Place/Spawn with visual assistant
-- Attack
-- Pierce
-- AOE-Damage
-- AOE-Slow
+## Towers
+- Place towers with visual guide
+- Attack, Pierce, AOE Damage, and Slow
 
-UI / Others
+## UI / Others
 - UI/Lose/Restart
 - Tutorial to place one tower
-- Range visual
+- Range visualization
 - Build for WebGL
-- Polish UI
 
 Third Party
 Bezier: https://github.com/yasirkula/UnityBezierSolution

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f6f1d9909c70f468fcc73673959239, type: 3}
+  m_Name: WaveConfig
+  m_EditorClassIdentifier: 
+  TotalLives: 18
+  WaveSettings:
+    Waves:
+    - Delay: 1
+      Type: 0
+      Amount: 5
+    - Delay: 1
+      Type: 0
+      Amount: 10
+    - Delay: 1
+      Type: 1
+      Amount: 15
+    - Delay: 1
+      Type: 1
+      Amount: 20
+    - Delay: 1
+      Type: 2
+      Amount: 25
+    - Delay: 1
+      Type: 2
+      Amount: 30
+    - Delay: 1
+      Type: 3
+      Amount: 35
+    - Delay: 0.5
+      Type: 3
+      Amount: 45
